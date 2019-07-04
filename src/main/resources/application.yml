@@ -1,0 +1,10 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /
+spring:
+  datasource:
+    username: thw
+    password:
+    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://47.52.128.159:3306/insuranceDB
