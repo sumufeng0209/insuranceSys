@@ -8,3 +8,7 @@ spring:
     password:
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.52.128.159:3306/insuranceDB
+
+  thymeleaf:
+    encoding: UTF-8
+
