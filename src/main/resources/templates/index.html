@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<html lang="en" xmlns:th="http://www.thymeleaf.org" xmlns:shiro="http://www.pollix.at/thymeleaf/shiro">
 	
     <head>
         <!-- META DATA -->
@@ -195,7 +195,7 @@
 				<div class="container-fluid">
 
 					<div class="main-content-head">
-						<h2>hello !</h2>
+						<h2>hello !<span th:text="${user.emp_username}"/></h2>
 						<p>欢迎来到后台</p>
 					</div>
 

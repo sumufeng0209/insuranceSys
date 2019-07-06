@@ -8,3 +8,9 @@ spring:
     password: thw19971017thw
     driver-class-name: com.mysql.jdbc.Driver
     url: jdbc:mysql://47.52.128.159:3306/insuranceDB
+  thymeleaf:
+    mode: LEGACYHTML5
+    cache: false
+mybatis:
+  type-aliases-package: java.util
+  mapper-locations: mapper/*Mapper.xml
