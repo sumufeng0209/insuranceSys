@@ -17,7 +17,7 @@ spring:
       max-request-size: 10MB
   activiti:
     database-schema: update
-      check-process-definitions: false
+    check-process-definitions: false
 mybatis:
   mapper-locations: mapper/*Mapper.xml
   type-aliases-package: java.util
